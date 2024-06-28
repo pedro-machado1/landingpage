@@ -3,7 +3,7 @@ body,
 html {
     margin: 0;
     height: 100%;
-    background-color: aliceblue;
+    background-color: #EFF0F0;
 }
 a:hover{
     color: black;
@@ -36,9 +36,9 @@ header{
 #titulo{
     color: white;
     padding-left: 10px ;
-    padding-bottom: 50px;
     float: left;
-    text-decoration: none;
+    position: absolute;
+    top: 20px;
 }
 ul{
     margin: 0;
@@ -70,8 +70,51 @@ body div#parallax{
 }
 #title1{
     text-align: center;
+    padding-left: 30px;
     font: Sans-serif;
     font-size: xx-large;
     color: black;
 
+}
+#conteudo{
+    width: 100%;
+    float: left;
+    display: block;
+}
+.intro{
+    padding-left: 30px;
+    width: 95%;
+    float: left;
+}
+.resumo{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+}
+.texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    text-align: justify;
+}
+#patrocinadores{
+    height: max-content;
+    width: 200px;
+    float: left;
+}
+.pat{
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+#socio {
+    background-color: #00adee;
+    height: 10vh;
+    width: 20%;
+    border: none;
+    position: relative;;
+}
+#wts{
+    padding-left: 30px ;
 }
