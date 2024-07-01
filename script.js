@@ -1,3 +1,3 @@
-function redirecionar(){
-    
+function redirect(){
+    open("socio.html")
 }
